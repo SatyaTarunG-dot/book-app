@@ -1,10 +1,55 @@
 {
-    "books":
+  "books": [
     {
-        "name": "Harry Potter",
-        "author": "JK Rowling",
-        "price": "$699"
-        
-
+      "image":"app/assets/images/Harry_Potter",
+      "name": "Harry Potter",
+      "author": "J.K. Rowling",
+      "price": "$699"
+    },
+    {
+      "name": "Wings of Fire",
+      "author": "A.P.J Abdul Kalam",
+      "price": "$499"
+    },
+    {
+      "name": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": "$399"
+    },
+    {
+      "name": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "price": "$599"
+    },
+    {
+      "name": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": "$450"
+    },
+    {
+      "name": "Atomic Habits",
+      "author": "James Clear",
+      "price": "$650"
+    },
+    {
+      "name": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "price": "$550"
+    },
+    {
+      "name": "Ikigai",
+      "author": "Héctor García",
+      "price": "$480"
+    },
+    {
+      "name": "Do Epic Shit",
+      "author": "Ankur Warikoo",
+      "price": "$520"
+    },
+    {
+      "name": "Zero to One",
+      "author": "Peter Thiel",
+      "price": "$600"
     }
+  ]
 }
