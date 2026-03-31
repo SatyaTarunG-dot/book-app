@@ -1,7 +1,8 @@
 {
   "books": [
     {
-      "image":"app/assets/images/Harry_Potter",
+      "image":"app/assets/images/Harry_Potter.jpg
+      ",
       "name": "Harry Potter",
       "author": "J.K. Rowling",
       "price": "$699"
