@@ -8,6 +8,7 @@ export class Book extends LitElement {
         name: {},
         author: {},
         rating: { type: Number},
+        price: {type: Number},
 
     };
     static styles = css`
@@ -28,7 +29,7 @@ export class Book extends LitElement {
             height: 200px;
             object-fit: cover;
             display: block;
-            background: #f5f5f5;
+            background: #171616;
         }
 
         .info {
@@ -73,6 +74,7 @@ export class Book extends LitElement {
         this.author = "sample_author_name";
         this.rating = "2"
         this.image = "app/assets/images/Harry_Potter.webp";
+        this.price = "$500 M.R.P(1000)";
     }
     get start() {
      return Array.from({ length: 5 }, (_, i) =>
@@ -87,10 +89,12 @@ export class Book extends LitElement {
         <div class="info">
             <p class="name">${this.name}</P>
               <p class="author">${this.author}</p>
+              
                 <div class="stars">
                     ${this.stars}
                     <span class="rating-label">${this.rating}/5</span>
                 </div>
+                    <div><p class="price">${this.price}</p></div>
             </div>
         </div>
         `;
