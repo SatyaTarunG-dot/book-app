@@ -74,7 +74,7 @@ export class Book extends LitElement {
         this.author = "sample_author_name";
         this.rating = "2"
         this.image = "app/assets/images/Harry_Potter.webp";
-        this.price = "$500 M.R.P(1000)";
+        this.price = "₹500 M.R.P(1000)";
     }
     get start() {
      return Array.from({ length: 5 }, (_, i) =>
